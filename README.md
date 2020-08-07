@@ -12,7 +12,7 @@ please using command to spearate(default)
 ``` C sharp
  private void Dictionary()
         {
-            StreamReader str = new StreamReader(@"C:\Users\Done-02\source\repos\WindowsFormsApp1\WindowsFormsApp1\Dictionary.txt");
+            StreamReader str = new StreamReader(@"C:\Users\Done-02\source\repos\WindowsFormsApp1\WindowsFormsApp1\Dictionary.txt"); // change your own location(where you put the dictionary.txt)
             string ReadAll = str.ReadToEnd();
             str.Close();
 
